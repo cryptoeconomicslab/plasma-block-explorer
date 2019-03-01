@@ -1,0 +1,46 @@
+input {
+  font-family:Arial, sans-serif;
+}
+
+/* className .container is used by semantic-ui-react */ 
+
+.container {
+  background-color: #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.header-top {
+  background-color: #ccc;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-base {
+  background-color: #ccc;
+  width: 100vw;
+  height: 40px;
+}
+
+.container-base {
+  background-color: white;
+  box-shadow: 0.5px 0px 4px 0px rgba(0, 0, 0, 0.5);
+  padding: 24px;
+}
+
+.content-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.table-item {
+  background-color: rgb(255, 255, 255);
+}
+
+.table-item:hover {
+  background-color: orange;
+}
