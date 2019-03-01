@@ -5,7 +5,6 @@ export const UPDATE_UTXO = 'UPDATE_UTXO';
 
 export function web3connect() {
   return async (dispatch) => {
-    console.log("a")
     const blockExplorer = SyncherFactory.create()
     dispatch({
       type: WEB3_CONNECTED,

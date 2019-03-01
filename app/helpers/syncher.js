@@ -17,8 +17,7 @@ export class BlockExplorer {
     await this.sync()
     setTimeout(async () => {
       await this.sync()
-      await this.init()
-      handler()
+      await this.init(handler)
     }, 200000)
     handler()
   }
